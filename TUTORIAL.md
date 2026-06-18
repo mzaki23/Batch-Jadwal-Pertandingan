@@ -12,7 +12,7 @@ Sebelum memulai, pastikan letak file Anda sama seperti di bawah ini:
 * **Script Photoshop:** `AutoJadwalLengkap.jsx` (ada di folder root)
 * **Data CSV:** `Hari,Tgl WIB,Jam WIB,Tim 1,Tim 2,Logo 1,.csv` (ada di folder root)
 * **Folder Logo:** `Peta/` (berisi bendera SVG seperti `us.svg`, `py.svg`, `au.svg`, dll)
-* **Folder Ekspor:** `Final/Banner DigiPOS/` (folder kosong tujuan akhir)
+* **Folder Ekspor:** `Final/[Nama_Folder_Ekspor]/` (folder kosong tujuan akhir)
 
 ---
 
@@ -74,7 +74,7 @@ Ikuti petunjuk ini dengan seksama untuk mulai memproses:
    * **1. Arahkan File Data & Folder Target:**
      * **Data CSV:** Klik *"Pilih File..."* ➔ Pilih file `Hari,Tgl WIB,Jam WIB,Tim 1,Tim 2,Logo 1,.csv`.
      * **Folder Logo SVG:** Klik *"Pilih Folder..."* ➔ Pilih folder `Peta`.
-     * **Folder Export:** Klik *"Pilih Folder..."* ➔ Pilih folder `Final/Banner DigiPOS`.
+     * **Folder Export:** Klik *"Pilih Folder..."* ➔ Pilih folder `Final/[Nama_Folder_Ekspor]`.
    * **2. Arahkan Target Layer di PSD:**
      * Secara otomatis, dropdown akan mendeteksi nama layer yang sudah Anda siapkan di Langkah 1. Pastikan pilihan dropdown sudah sesuai (misal dropdown *Teks Tim 1 Kiri* memilih nama layer `Tim1_Kiri`).
    * **3. Pengaturan Format Nama File:**
@@ -88,7 +88,7 @@ Ikuti petunjuk ini dengan seksama untuk mulai memproses:
 
 Setelah proses automasi berjalan dan selesai (ditandai dengan munculnya pesan sukses beserta durasi detiknya):
 
-1. Buka folder ekspor Anda di komputer: `Final/Banner DigiPOS/`.
+1. Buka folder ekspor Anda di komputer: `Final/[Nama_Folder_Ekspor]/`.
 2. Anda akan melihat subfolder baru bernama **`13 Juni 2026`** telah dibuat secara otomatis oleh Photoshop.
 3. Di dalam folder `13 Juni 2026` tersebut, Anda akan menemukan file gambar:
    `260612 - FIFA World Cup - 13 Juni 2026_869x538px (Pop Up Banner).jpg`

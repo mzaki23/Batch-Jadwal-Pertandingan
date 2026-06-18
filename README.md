@@ -66,7 +66,7 @@ File CSV harus menggunakan pemisah koma (`,`) atau titik koma (`;`) dengan struk
 3. Di jendela dialog yang muncul:
    * **Data CSV:** Arahkan ke file CSV jadwal Anda.
    * **Folder Logo SVG:** Arahkan ke folder berisi file logo/bendera Anda (misalnya folder `Peta`).
-   * **Folder Export:** Arahkan ke folder tujuan penyimpanan hasil ekspor JPG (misalnya folder `Final/Banner DigiPOS`).
+   * **Folder Export:** Arahkan ke folder tujuan penyimpanan hasil ekspor JPG (misalnya folder `Final/[Nama_Folder_Ekspor]`).
    * **Layer Mapping:** Pastikan pilihan dropdown layer sudah mengarah ke nama layer yang tepat di PSD Anda.
    * **Format Nama File:** Atur Awalan (Prefix) dan Akhiran (Suffix) nama file JPG jika diinginkan.
 4. Klik **Jalankan Automasi**.

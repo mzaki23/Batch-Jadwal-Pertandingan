@@ -22,11 +22,10 @@ def organize_banners(source_dir=None):
     for filename in os.listdir(source_dir):
         # Hanya proses file gambar
         if filename.lower().endswith(('.jpg', '.jpeg', '.png')):
-            # Pastikan file adalah bagian dari aset banner
-            if "Pop Up Banner" in filename or "Banner DigiPOS" in filename:
-                if "_" in filename:
-                    # Mengambil bagian sebelum underscore -> "260612 - FIFA World Cup - 13 Juni 2026"
-                    base_name = filename.split('_')[0].strip()
+            # Memecah nama file berdasarkan tanda '_' dan '-'
+            if "_" in filename and "-" in filename:
+                # Mengambil bagian sebelum underscore -> "260612 - FIFA World Cup - 13 Juni 2026"
+                base_name = filename.split('_')[0].strip()
                     
                     # Mengambil HANYA tanggalnya saja (teks setelah tanda '-' terakhir) -> "13 Juni 2026"
                     folder_name = base_name.split('-')[-1].strip()
