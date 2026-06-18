@@ -1,0 +1,12 @@
+# Ignore exported images
+*.jpg
+*.jpeg
+
+# But don't ignore documentation infographics
+!workflow_infographic.png
+!visual_tutorial_retro.png
+!run_guide_infographic.png
+
+# Ignore generated date folders in Final
+Final/Banner DigiPOS/*/
+Final/Pop Up Banner/*/
